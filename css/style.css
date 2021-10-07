@@ -89,6 +89,29 @@ h1 {
     
 }
 
+.jumbobox {
+    width: 100%;
+    background-color: violet;
+}
+
+.jumboimg {
+    width: 70%;
+}
+
+#jumboimm {
+    width: 750px;
+}
+
+.jumbotxt {
+    width: 30%;
+}
+
+.jumbotxt .btn {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
 
 
 

@@ -10,7 +10,7 @@ body {
 
 .container {
     width: 75%;
-    background-color: springgreen;
+    
     margin: 0 auto;
     
 }
@@ -53,7 +53,7 @@ header {
 }
 
 /*NAV*/
-ul li {
+nav ul li {
     display: inline-block;
 }
 
@@ -91,7 +91,7 @@ h1 {
 
 .jumbobox {
     width: 100%;
-    background-color: violet;
+    
 }
 
 .jumboimg {
@@ -112,8 +112,21 @@ h1 {
     font-size: 15px;
 }
 
+ul li {
+    list-style: none;
+}
+
+#arrow {
+    
+}
+
 
 
 
 /*DEBUG*/
-debug container
+/*debug container {
+    background-color: springgreen;
+}*/
+
+/*debug jumbobox {
+background-color: violet;} */

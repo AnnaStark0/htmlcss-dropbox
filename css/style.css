@@ -10,8 +10,8 @@ body {
 
 .container {
     width: 75%;
-    
     margin: 0 auto;
+    background-color: springgreen;
     
 }
 
@@ -74,7 +74,7 @@ header nav ul li a {
 
 }
 
-/*--------------------*/
+
 
 /*JUMBOTRON*/
 .jumbo {
@@ -119,13 +119,90 @@ ul li {
 #arrow {
     
 }
+/*--------------------------------------------*/
+
+/*SEZIONE 1*/
+.sezione1 {
+    height: 1500px;
+    background-color: palegreen;
+}
+
+.sezione1 h3 {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
+#radio {
+    padding-right: 20px;
+}
+
+.bill {
+    padding-bottom: 30px;
+}
+
+/*BOX*/
+.box-sez {
+    /*text-align: center;*/
+    background-color:plum;
+    height: 800px;
+}
+
+.box {
+    
+    width: calc((100% / 3) - 30px);
+
+    margin-left: 15px;
+    margin-right: 15px;
+   
+    border: 1px solid black;
+    background-color: white;
+}
+
+.single {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+/*.box-sez ul {
+    list-style-type: none; 
+    padding-left: 0;       
+    margin-left: 0;        
+}*/
+
+.box-sez h4 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-size: 25px;
+}
+
+.price {
+    margin-bottom: 10px;
+}
+
+.user {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.user li:not(:last-child) {
+    line-height: 2.5;
+}
+
+
+
+
 
 
 
 
 /*DEBUG*/
 /*debug container {
-    background-color: springgreen;
+    
 }*/
 
 /*debug jumbobox {

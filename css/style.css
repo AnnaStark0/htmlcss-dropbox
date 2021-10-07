@@ -7,3 +7,43 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+/*HEADER*/
+
+header {
+    height: 80px;
+    line-height: 80px;
+    background:grey;
+}
+
+
+/*CLEARFIX*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/*ROW*/
+.row {
+    vertical-align: middle;
+}
+
+/*NAV*/
+ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 0 20px;
+}

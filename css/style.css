@@ -13,7 +13,7 @@ body {
 header {
     height: 80px;
     line-height: 80px;
-    background:grey;
+    background:white;
 }
 
 
@@ -45,5 +45,19 @@ ul li {
 header nav ul li a {
     color: black;
     text-decoration: none;
-    padding: 0 20px;
+    padding: 0 15px;
+}
+
+/*LOGO + Button START*/
+#logo {
+    margin-left: 15px;
+    padding-top: 6px;
+}
+
+#start {
+    margin-right: 15px;
+    padding: 5px 13px;
+    background-color:dodgerblue;
+    color: white;
+    border-style: none;
 }

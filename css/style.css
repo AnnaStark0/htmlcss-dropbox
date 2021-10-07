@@ -63,6 +63,10 @@ header nav ul li a {
     padding: 0 15px;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 /*LOGO + Button START*/
 #logo {
     margin-left: 15px;

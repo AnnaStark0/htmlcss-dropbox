@@ -274,7 +274,34 @@ margin-top: 30px;
     border: 1px solid black;
 }
 
+/*--------------------------------------------*/
 
+/*SEZIONE 3*/
+
+.sez3 {
+    height: 1200px;
+    background-color: deepskyblue;
+}
+.sez3 h3 {
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.row1 {
+    height: 400px;
+    background-color: blue;
+}
+
+.card {
+    
+    width: calc((100% / 3) - 30px);
+
+    margin-left: 15px;
+    margin-right: 15px;
+
+    height: 400px;
+    background-color: darkturquoise;
 
 /*DEBUG*/
 /*debug container {

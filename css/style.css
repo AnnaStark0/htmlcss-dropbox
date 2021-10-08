@@ -285,11 +285,11 @@ margin-top: 30px;
 .sez3 h3 {
     font-size: 40px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .row1 {
-    height: 400px;
+    height: 520px;
     background-color: blue;
 }
 
@@ -300,8 +300,14 @@ margin-top: 30px;
     margin-left: 15px;
     margin-right: 15px;
 
-    height: 400px;
+    height: 500px;
     background-color: darkturquoise;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+}
 
 /*DEBUG*/
 /*debug container {

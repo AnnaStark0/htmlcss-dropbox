@@ -310,6 +310,47 @@ margin-top: 30px;
     object-fit: cover;
 }
 
+
+/*--------------------------------------------*/
+
+/*SEZIONE 4*/
+
+.sez4up {
+    height: 200px;
+    background-color: dodgerblue;
+    margin-top: 100px;
+}
+
+.sez4up h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+.sez4down {
+    height: 600px;
+    background-color: lime;
+}
+
+
+.card2 {
+    width: calc(100% / 3) ;
+    height: 400px;
+    background-color: orchid;
+    border: 1px solid black;
+}
+
+.sopra {
+    height: 200px;
+    background-color: palegoldenrod;
+    border: 1px solid black;
+}
+
+
+
+
+
+
 /*DEBUG*/
 /*debug container {
     

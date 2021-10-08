@@ -328,25 +328,50 @@ margin-top: 30px;
 
 
 .sez4down {
-    height: 600px;
-    background-color: lime;
+    /*height: 600px;
+    background-color: lime;*/
 }
 
 
 .card2 {
     width: calc(100% / 3) ;
     height: 400px;
-    background-color: orchid;
+    /*background-color: orchid;*/
     border: 1px solid black;
 }
 
-.sopra {
+.rettangolo {
     height: 200px;
-    background-color: palegoldenrod;
+    /*background-color: palegoldenrod;*/
     border: 1px solid black;
 }
 
+.rettangolo img {
+    object-fit:contain;
+    
+}
 
+.quadrato {
+    width: 50%;
+    height: 200px;
+    border: 1px solid black;   
+}
+
+.designit {
+    background-color: palegreen;
+}
+
+.asu {
+    background-color: rgb(87, 12, 64);
+}
+
+.uof {
+    background-color: dodgerblue;
+}
+
+.topps {
+    background-color: red;
+}
 
 
 

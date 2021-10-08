@@ -11,7 +11,7 @@ body {
 .container {
     width: 75%;
     margin: 0 auto;
-    background-color: springgreen;*/
+    /* background-color: springgreen; */
     
 }
 
@@ -280,17 +280,18 @@ margin-top: 30px;
 
 .sez3 {
     height: 1200px;
-    background-color: deepskyblue;
+    /*background-color: deepskyblue;*/
 }
 .sez3 h3 {
     font-size: 40px;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 40px;
 }
 
 .row1 {
     height: 520px;
-    background-color: blue;
+    /* background-color: blue; */
+    margin-bottom: 20px;
 }
 
 .card {
@@ -301,7 +302,7 @@ margin-top: 30px;
     margin-right: 15px;
 
     height: 500px;
-    background-color: darkturquoise;
+    /* background-color: darkturquoise; */
 }
 
 .card img {

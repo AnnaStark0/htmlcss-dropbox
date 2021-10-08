@@ -11,7 +11,7 @@ body {
 .container {
     width: 75%;
     margin: 0 auto;
-    /*background-color: springgreen;*/
+    background-color: springgreen;*/
     
 }
 
@@ -29,6 +29,7 @@ header {
     height: 80px;
     line-height: 80px;
     background:white;
+    border-bottom: 1px solid lightgray;
 }
 
 
@@ -71,6 +72,7 @@ a:hover {
 #logo {
     margin-left: 15px;
     padding-top: 6px;
+    /*vertical-align: text-bottom;*/
 }
 
 #start {
@@ -127,8 +129,8 @@ ul li {
 
 /*SEZIONE 1*/
 .sezione1 {
-    height: 1500px;
-    /*background-color: palegreen;*/
+    /*height: 1500px;
+    background-color: violet;*/
 }
 
 .sezione1 h3 {
@@ -148,7 +150,7 @@ ul li {
 /*BOX*/
 .box-sez {
     /*background-color:plum;*/
-    height: 1200px;
+    height: 900px;
 }
 
 .box {
@@ -164,17 +166,16 @@ ul li {
     background-color: white;
 }
 
-.single {
+.box-top {
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
     border-bottom: 1px solid lightgrey;
 }
 
-.box-sez h4 {
+h4 {
     padding-top: 20px;
     padding-bottom: 15px;
-    
     font-size: 25px;
 }
 
@@ -221,9 +222,21 @@ h5 {
     color: royalblue;
 }
 
+.box4 {
+    height: 230px;
+    background-color:white;
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border: 1px solid lightgrey;
+}
 
+.rowsx {
+    width: 70%;
+}
+/*--------------------------------------------*/
 
-
+/*SEZIONE 2*/
 
 
 

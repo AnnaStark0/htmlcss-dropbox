@@ -238,6 +238,42 @@ h5 {
 
 /*SEZIONE 2*/
 
+.sez2 {
+    /*height: 600px;
+    background-color: deepskyblue;*/
+}
+
+.boxssez2 {
+    margin-top: 150px;
+    margin-bottom: 40px;
+
+}
+
+.colsx {
+    width:50%;
+}
+
+.coldx {
+    width:50%;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.sez2img {
+    width: 100%;
+} 
+.coldx h4 {
+margin-top: 30px;
+}
+
+.btn3 {
+    padding: 7px 15px;
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+
 
 
 /*DEBUG*/

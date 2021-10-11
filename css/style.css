@@ -317,7 +317,7 @@ margin-top: 30px;
 
 .sez4up {
     height: 200px;
-    background-color: dodgerblue;
+    /*background-color: dodgerblue;*/
     margin-top: 100px;
 }
 
@@ -360,23 +360,56 @@ margin-top: 30px;
     width: 50%;
     height: 200px;
     border: 1px solid black;   
+    text-align: center;
+    line-height: 200px;
+    
+}
+
+.quadrato img {
+    
+    width: 60%;    
+    filter: invert(1);*/
+    
 }
 
 .designit {
     background-color: palegreen;
+    
+    border: 10px solid rgb(198, 241, 198); 
 }
 
 .asu {
-    background-color: rgb(87, 12, 64);
+    background-color:#61082b;
+
+
 }
 
 .uof {
-    background-color: dodgerblue;
+    background-color:#0093ce;
 }
 
 .topps {
-    background-color: red;
+    background-color: #ff1c1c;
 }
+
+.wbr {
+    background-color: #d5001f;
+}
+
+.hearst {
+    background-color:#b4d0e7;
+}
+
+.lp {
+    background-color: #0d2481;
+}
+
+.cc {
+    background-color:#ffd830;
+}
+
+
+
 
 .deslogo {
     width: 25%;

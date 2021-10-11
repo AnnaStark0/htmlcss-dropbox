@@ -332,9 +332,14 @@ margin-top: 30px;
     background-color: lime;*/
 }
 
-
+.cardsxdx {
+    width: 400px;
+    height: 400px;
+    /*background-color: orchid;*/
+    border: 1px solid black;
+}
 .card2 {
-    width: calc(100% / 3) ;
+    width: calc(100% - 800px) ;
     height: 400px;
     /*background-color: orchid;*/
     border: 1px solid black;
@@ -373,7 +378,24 @@ margin-top: 30px;
     background-color: red;
 }
 
+.deslogo {
+    width: 25%;
+    padding-top: 50px;
+    padding-left: 40px;
+    margin-bottom: 5px;
+}
 
+.card2 hr {
+    border: 1px solid rgb(163, 167, 172);
+    margin-left: 40px;
+    width: 50px;
+}
+
+.card2 p {
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
 
 
 /*DEBUG*/

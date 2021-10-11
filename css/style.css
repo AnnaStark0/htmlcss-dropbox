@@ -54,6 +54,11 @@ header {
 }
 
 /*NAV*/
+header nav {
+    position: fixed;
+
+}
+
 nav ul li {
     display: inline-block;
 }

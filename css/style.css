@@ -11,16 +11,10 @@ body {
 .container {
     width: 75%;
     margin: 0 auto;
-   /*background-color: springgreen; */
-    
+    /*background-color: springgreen; */
 }
 
-.btn {
-    padding: 5px 13px;
-    background-color:dodgerblue;
-    color: white;
-    border-style: none;
-}
+
 
 /*--------------------*/
 /*HEADER*/
@@ -28,17 +22,16 @@ body {
 header {
     height: 80px;
     line-height: 80px;
-    background:white;
+    background: white;
     border-bottom: 1px solid lightgray;
 }
-
 
 /*CLEARFIX*/
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
 .left {
     float: left;
@@ -50,15 +43,15 @@ header {
 
 /*ROW*/
 .row {
+    width: 100%;
     vertical-align: middle;
+    position: fixed;
+    background-color: white;
+
 }
+
 
 /*NAV*/
-header nav {
-    position: fixed;
-
-}
-
 nav ul li {
     display: inline-block;
 }
@@ -69,8 +62,8 @@ header nav ul li a {
     padding: 0 15px;
 }
 
-a:hover {
-    text-decoration: underline;
+nav li:hover {
+    border-bottom: 2px solid black;
 }
 
 /*LOGO + Button START*/
@@ -82,27 +75,93 @@ a:hover {
 
 #start {
     margin-right: 15px;
-
 }
 
+#logo:hover {
+    cursor: pointer;
+}
+
+/*BUTTONS*/
+.btn {
+    padding: 5px 13px;
+    background-color: dodgerblue;
+    color: white;
+    border-style: none;
+}
+
+.btn:hover {
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+
+.btn2 {
+    margin: 20px 0px;
+    padding: 10px 40px;
+    background-color: dodgerblue;
+    color: white;
+    border-style: none;
+}
+
+.btn2:hover {
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+
+.btn2a {
+    margin: 20px 20px;
+    padding: 10px 40px;
+    background-color: dodgerblue;
+    color: white;
+    border-style: none;
+}
+
+.btn2a:hover {
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+
+.btn3 {
+    padding: 7px 15px;
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+
+.btn3:hover {
+    background-color: rgb(231, 227, 227);
+    cursor: pointer;
+}
+
+.btn4 {
+    margin: 20px 32px;
+    padding: 10px 40px;
+    background-color: white;
+    color: black;
+    border-style: none;
+}
+
+.btn4:hover {
+    background-color: rgb(231, 227, 227);
+    cursor: pointer;
+}
 
 
 /*JUMBOTRON*/
 .jumbo {
     height: 600px;
     background-color: #b4d0e7;
+    margin-bottom: 40px;
 }
 
 h1 {
     font-size: 60px;
     padding-top: 50px;
     padding-bottom: 30px;
-    
 }
 
 .jumbobox {
     width: 100%;
-    
 }
 
 .jumboimg {
@@ -127,8 +186,19 @@ ul li {
     list-style: none;
 }
 
-.fas fa-arrow-down {
-    width: 50px;
+
+
+.small {
+    font-size: small;
+}
+
+.fa-arrow-down {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.fa-arrow-down:hover {
+    cursor: pointer;
 }
 
 /*--------------------------------------------*/
@@ -160,14 +230,14 @@ ul li {
 }
 
 .box {
-    
-    width: calc((100% / 3) - 30px);
+
+    width: calc((100% / 3) - 50px);
 
     height: 900px;
 
-    margin-left: 15px;
-    margin-right: 15px;
-   
+    margin-left: 25px;
+    margin-right: 25px;
+
     border: 1px solid lightgrey;
     background-color: white;
 }
@@ -186,8 +256,9 @@ h4 {
 }
 
 .boxtext {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: small;
 }
 
 .price {
@@ -201,23 +272,15 @@ h4 {
 .user {
     margin-top: 15px;
     margin-bottom: 15px;
-    
+
 }
 
 .boxtext li {
     padding-bottom: 15px;
-    
-
 }
 
 
-.btn2 {
-    margin: 20px 32px;
-    padding: 10px 40px;
-    background-color:dodgerblue;
-    color: white;
-    border-style: none;
-}
+
 
 hr {
     margin-top: 20px;
@@ -235,7 +298,7 @@ h5 {
 
 .box4 {
     height: 230px;
-    background-color:white;
+    background-color: white;
     margin-top: 30px;
     margin-right: 15px;
     margin-left: 15px;
@@ -245,6 +308,7 @@ h5 {
 .rowsx {
     width: 70%;
 }
+
 /*--------------------------------------------*/
 
 /*SEZIONE 2*/
@@ -261,29 +325,24 @@ h5 {
 }
 
 .colsx {
-    width:50%;
+    width: 50%;
 }
 
 .coldx {
-    width:50%;
+    width: 50%;
     padding-left: 50px;
     padding-right: 10px;
 }
 
 .sez2img {
     width: 100%;
-} 
-.coldx h4 {
-margin-top: 30px;
 }
 
-.btn3 {
-    padding: 7px 15px;
-    background-color: white;
-    color: black;
+.coldx h4 {
     margin-top: 30px;
-    border: 1px solid black;
 }
+
+
 
 /*--------------------------------------------*/
 
@@ -293,6 +352,7 @@ margin-top: 30px;
     height: 1200px;
     /*background-color: deepskyblue;*/
 }
+
 .sez3 h3 {
     font-size: 40px;
     padding-top: 50px;
@@ -306,12 +366,9 @@ margin-top: 30px;
 }
 
 .card {
-    
     width: calc((100% / 3) - 30px);
-
     margin-left: 15px;
     margin-right: 15px;
-
     height: 500px;
     /* background-color: darkturquoise; */
 }
@@ -337,7 +394,6 @@ margin-top: 30px;
     margin-bottom: 20px;
 }
 
-
 .sez4down {
     /*height: 600px;
     background-color: lime;*/
@@ -349,8 +405,9 @@ margin-top: 30px;
     /*background-color: orchid;*/
     /*border: 1px solid black;*/
 }
+
 .card2 {
-    width: calc(100% - 800px) ;
+    width: calc(100% - 800px);
     height: 400px;
     /*background-color: orchid;*/
     /*border: 1px solid black;*/
@@ -363,41 +420,35 @@ margin-top: 30px;
 }
 
 .rettangolo img {
-    object-fit:contain;
-    
+    object-fit: contain;
 }
 
 .quadrato {
     width: 50%;
     height: 200px;
-   /* border: 1px solid black;   */
+    /* border: 1px solid black;   */
     text-align: center;
     line-height: 200px;
-    
 }
 
 .quadrato img {
-    
-    width: 60%;    
-    filter: invert(1);*/
-    
+
+    width: 60%;
+    filter: invert(1);
 }
 
 .designit {
-    background-color:#a2d39b;
-    
-    border: 10px solid rgb(198, 241, 198); 
+    background-color: #a2d39b;
+    border: 10px solid rgb(198, 241, 198);
 }
 
 .asu {
-    background-color:#61082b;
+    background-color: #61082b;
     padding-top: 40px;
-
-
 }
 
 .uof {
-    background-color:#0093ce;
+    background-color: #0093ce;
 }
 
 .topps {
@@ -410,7 +461,7 @@ margin-top: 30px;
 }
 
 .hearst {
-    background-color:#b4d0e7;
+    background-color: #b4d0e7;
 }
 
 .lp {
@@ -419,12 +470,9 @@ margin-top: 30px;
 }
 
 .cc {
-    background-color:#ffd830;
+    background-color: #ffd830;
     padding-top: 20px;
 }
-
-
-
 
 .deslogo {
     width: 25%;
@@ -445,35 +493,18 @@ margin-top: 30px;
     padding-bottom: 20px;
 }
 
-
-
 /*--------------------------------------------*/
 
 /*SEZIONE 5*/
 
 .sez5 {
-    
+
     height: 300px;
     background-color: #b4d0e7;
-    
-    
-}
-
-
-
-.btn4 {
-    margin: 20px 32px;
-    padding: 10px 40px;
-    background-color:white;
-    color: black;
-    border-style: none;
-    
 }
 
 .bleft {
     width: 50%;
-   
-    
 }
 
 .bright {
@@ -484,32 +515,30 @@ margin-top: 30px;
 
 .bleft h3 {
     font-size: 30px;
-    color:#61082b;
+    color: #61082b;
     text-align: center;
     padding-top: 100px;
-    
-    
 }
+
 /*--------------------------------------------*/
 
 /*SEZIONE 6*/
 .sez6 {
     height: 500px;
+    margin-bottom: 80px;
     /*background-color: rgb(0, 162, 255);*/
 }
 
 .sez6 h4 {
     padding-top: 100px;
     padding-bottom: 50px;
-    border-bottom:1px solid grey;
+    border-bottom: 1px solid grey;
 }
 
 .faq {
-    
-padding-top: 25px;
-   padding-bottom: 25px;
-  
-   border-bottom: 1px solid grey;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid grey;
 }
 
 .fa-angle-down {
@@ -518,25 +547,18 @@ padding-top: 25px;
 
 /*--------------------*/
 /*FOOTER*/
- footer {
-     height: 450px;
-     background-color: black;
-     color: white;
-     
-     
- }
+footer {
+    height: 450px;
+    background-color: black;
+    color: white;
+}
 
+.footext {
+    font-weight: bold;
+    padding-top: 90px;
+    padding-right: 135px;
 
- .footext {
-     font-weight: bold;
-     padding-top:90px ;
-     padding-right: 135px;
-     
- }
-
- footer ul {
-
- }
+}
 
 footer ul li {
     line-height: 2.0;
@@ -555,10 +577,16 @@ footer a {
     text-decoration: none;
 }
 
+footer a:hover {
+    text-decoration: underline;
+}
+
 #Language {
     background-color: black;
     color: grey;
 }
+
+
 
 
 /*DEBUG*/

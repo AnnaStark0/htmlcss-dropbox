@@ -11,9 +11,58 @@ body {
 .container {
     width: 75%;
     margin: 0 auto;
-    /*background-color: springgreen; */
 }
 
+/*----------------------------*/
+/*BUTTONS*/
+.btn {
+    padding: 5px 13px;
+    background-color: dodgerblue;
+    color: white;
+    border-style: none;
+}
+
+.btn:hover, .btn2:hover , .btn2a:hover {
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+
+.btn2 {
+    margin: 20px 0px;
+    padding: 10px 40px;
+    background-color: dodgerblue;
+    color: white;
+    border-style: none;
+}
+
+.btn2a {
+    margin: 20px 20px;
+    padding: 10px 40px;
+    background-color: dodgerblue;
+    color: white;
+    border-style: none;
+}
+
+.btn3 {
+    padding: 7px 15px;
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+
+.btn3:hover , .btn4:hover {
+    background-color: rgb(231, 227, 227);
+    cursor: pointer;
+}
+
+.btn4 {
+    margin: 20px 32px;
+    padding: 10px 40px;
+    background-color: white;
+    color: black;
+    border-style: none;
+}
 
 
 /*--------------------*/
@@ -47,7 +96,6 @@ header {
     vertical-align: middle;
     position: fixed;
     background-color: white;
-
 }
 
 
@@ -70,7 +118,6 @@ nav li:hover {
 #logo {
     margin-left: 15px;
     padding-top: 6px;
-    /*vertical-align: text-bottom;*/
 }
 
 #start {
@@ -81,72 +128,7 @@ nav li:hover {
     cursor: pointer;
 }
 
-/*BUTTONS*/
-.btn {
-    padding: 5px 13px;
-    background-color: dodgerblue;
-    color: white;
-    border-style: none;
-}
-
-.btn:hover {
-    background-color: lightskyblue;
-    cursor: pointer;
-}
-
-.btn2 {
-    margin: 20px 0px;
-    padding: 10px 40px;
-    background-color: dodgerblue;
-    color: white;
-    border-style: none;
-}
-
-.btn2:hover {
-    background-color: lightskyblue;
-    cursor: pointer;
-}
-
-.btn2a {
-    margin: 20px 20px;
-    padding: 10px 40px;
-    background-color: dodgerblue;
-    color: white;
-    border-style: none;
-}
-
-.btn2a:hover {
-    background-color: lightskyblue;
-    cursor: pointer;
-}
-
-.btn3 {
-    padding: 7px 15px;
-    background-color: white;
-    color: black;
-    margin-top: 30px;
-    border: 1px solid black;
-}
-
-.btn3:hover {
-    background-color: rgb(231, 227, 227);
-    cursor: pointer;
-}
-
-.btn4 {
-    margin: 20px 32px;
-    padding: 10px 40px;
-    background-color: white;
-    color: black;
-    border-style: none;
-}
-
-.btn4:hover {
-    background-color: rgb(231, 227, 227);
-    cursor: pointer;
-}
-
-
+/*------------------------*/
 /*JUMBOTRON*/
 .jumbo {
     height: 600px;
@@ -186,8 +168,6 @@ ul li {
     list-style: none;
 }
 
-
-
 .small {
     font-size: small;
 }
@@ -204,10 +184,7 @@ ul li {
 /*--------------------------------------------*/
 
 /*SEZIONE 1*/
-.sezione1 {
-    /*height: 1500px;
-    background-color: violet;*/
-}
+.sezione1 {}
 
 .sezione1 h3 {
     padding-top: 180px;
@@ -225,19 +202,14 @@ ul li {
 
 /*BOX*/
 .box-sez {
-    /*background-color:plum;*/
     height: 900px;
 }
 
 .box {
-
     width: calc((100% / 3) - 50px);
-
     height: 900px;
-
     margin-left: 25px;
     margin-right: 25px;
-
     border: 1px solid lightgrey;
     background-color: white;
 }
@@ -272,13 +244,11 @@ h4 {
 .user {
     margin-top: 15px;
     margin-bottom: 15px;
-
 }
 
 .boxtext li {
     padding-bottom: 15px;
 }
-
 
 hr {
     margin-top: 20px;
@@ -313,15 +283,12 @@ h5 {
 /*SEZIONE 2*/
 
 .sez2 {
-    /*height: 600px;
-    background-color: deepskyblue;*/
     margin-bottom: 50px;
 }
 
 .boxssez2 {
     margin-top: 150px;
     margin-bottom: 40px;
-
 }
 
 .colsx {
@@ -343,15 +310,10 @@ h5 {
 }
 
 
-
 /*--------------------------------------------*/
 
 /*SEZIONE 3*/
-
-.sez3 {
-    height: 1200px;
-    /*background-color: deepskyblue;*/
-}
+.sez3 {}
 
 .sez3 h3 {
     font-size: 40px;
@@ -360,17 +322,14 @@ h5 {
 }
 
 .row1 {
-    height: 520px;
-    /* background-color: blue; */
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .card {
     width: calc((100% / 3) - 30px);
     margin-left: 15px;
     margin-right: 15px;
-    height: 500px;
-    /* background-color: darkturquoise; */
+   height: 500px;
 }
 
 .card img {
@@ -378,14 +337,11 @@ h5 {
     object-fit: cover;
 }
 
-
 /*--------------------------------------------*/
 
 /*SEZIONE 4*/
-
 .sez4up {
     height: 200px;
-    /*background-color: dodgerblue;*/
     margin-top: 100px;
 }
 
@@ -394,29 +350,20 @@ h5 {
     margin-bottom: 20px;
 }
 
-.sez4down {
-    /*height: 600px;
-    background-color: lime;*/
-}
+.sez4down {}
 
 .cardsxdx {
     width: 400px;
     height: 400px;
-    /*background-color: orchid;*/
-    /*border: 1px solid black;*/
 }
 
 .card2 {
     width: calc(100% - 800px);
     height: 400px;
-    /*background-color: orchid;*/
-    /*border: 1px solid black;*/
 }
 
 .rettangolo {
     height: 200px;
-    /*background-color: palegoldenrod;*/
-    /*border: 1px solid black;*/
 }
 
 .rettangolo img {
@@ -426,13 +373,11 @@ h5 {
 .quadrato {
     width: 50%;
     height: 200px;
-    /* border: 1px solid black;   */
     text-align: center;
     line-height: 200px;
 }
 
 .quadrato img {
-
     width: 60%;
     filter: invert(1);
 }
@@ -496,7 +441,6 @@ h5 {
 /*--------------------------------------------*/
 
 /*SEZIONE 5*/
-
 .sez5 {
 
     height: 300px;
@@ -524,9 +468,7 @@ h5 {
 
 /*SEZIONE 6*/
 .sez6 {
-    height: 500px;
-    margin-bottom: 80px;
-    /*background-color: rgb(0, 162, 255);*/
+    margin-bottom: 130px;
 }
 
 .sez6 h4 {
@@ -539,6 +481,8 @@ h5 {
     padding-top: 25px;
     padding-bottom: 25px;
     border-bottom: 1px solid grey;
+    font-weight: bold;
+    font-size: small;
 }
 
 .fa-angle-down {
@@ -549,7 +493,7 @@ h5 {
     cursor: pointer;
 }
 
-/*--------------------*/
+/*--------------------------------------*/
 /*FOOTER*/
 footer {
     height: 450px;
@@ -595,8 +539,46 @@ footer a:hover {
 
 /*DEBUG*/
 /*debug container {
-    
+    background-color: springgreen; 
 }*/
 
 /*debug jumbobox {
-background-color: violet;} */
+    background-color: violet;} */
+
+/*debug sezione1
+    height: 1500px;
+    background-color: violet;*/
+
+/*debug box-sez {
+    background-color:plum;}*/
+
+/*debug sez2 {
+    height: 600px;
+    background-color: deepskyblue;}*/
+    
+/*debug sez3 {
+    height: 1200px;
+    background-color: deepskyblue;}*/
+
+/*debug row1 {
+    height: 520px;
+    background-color: blue;} */
+
+/*debug card {
+       /* background-color: darkturquoise; 
+}*/
+
+/*debug sez4up {
+    /*background-color: dodgerblue;*/
+
+/* debug.sez4down {
+    /*height: 600px;
+    background-color: lime;}*/
+
+/*debug .card2 {
+        /*background-color: orchid;*/
+    /*border: 1px solid black;}*/
+
+/*debug .sez6 {
+    height: 500px;
+    background-color: rgb(0, 162, 255);}*/
